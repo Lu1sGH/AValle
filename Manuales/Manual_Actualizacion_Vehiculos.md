@@ -23,6 +23,7 @@ Para agregar un nuevo vehículo, añade un objeto JSON al arreglo principal con 
   "id": "identificador_unico",
   "title": "TÍTULO DEL VEHÍCULO",
   "shortDesc": "Descripción corta que aparece en la tarjeta",
+  "price": 500000,
   "details": [
     "FACTURA ORIGINAL",
     "TODO PAGADO HASTA EL 2026",
@@ -44,6 +45,7 @@ Para agregar un nuevo vehículo, añade un objeto JSON al arreglo principal con 
 | `id` | string | Sí | Identificador único del vehículo. Debe ir en minúsculas, sin espacios (usar guiones bajos `_`), sin acentos ni caracteres especiales. Es crítico, ya que el sistema lo usa para localizar automáticamente las imágenes. Ejemplo: `audi_rs3_2020`. |
 | `title` | string | Sí | Título del vehículo tal como aparece en la tarjeta. |
 | `shortDesc` | string | Sí | Descripción corta que aparece en la tarjeta. |
+| `price` | number | Sí | Precio de venta del vehículo, en pesos mexicanos (MXN). Se escribe como número, sin comillas, comas ni símbolo de moneda (ej. `500000`). |
 | `details` | array de strings | Sí | Información técnica del vehículo; cada elemento se muestra como un punto en la lista de detalles de la tarjeta. |
 | `promo` | array de strings | No | Mensajes que se resaltan en rojo en la tarjeta. Puede omitirse o dejarse como arreglo vacío (`"promo": []`) si el vehículo no tiene promociones. |
 | `imageCount` | number | Sí | Cantidad exacta de fotos del vehículo. El sistema genera las rutas de imagen a partir de este número. |
@@ -91,7 +93,7 @@ Si en `vehicles.json` creaste un vehículo con `"id": "honda_civic_2022"`, `"ima
 1. Reduce el peso de las fotografías (`jpg`, `jpeg` o `png`) del nuevo vehículo para optimizar la carga web.
 2. Nómbralas consecutivamente siguiendo la regla: `marca_modelo_año_1.ext`, `marca_modelo_año_2.ext`, etc.
 3. Mueve las fotografías a `public/coches/`.
-4. Abre `src/app/vehicles.json` y agrega un nuevo bloque JSON respetando las llaves y la sintaxis. Declara `id`, `title`, `shortDesc`, `details`, `promo` (opcional), `imageCount` y `ext` (si aplica). Asegúrate de que el `id` sea idéntico al usado en los nombres de las fotos.
+4. Abre `src/app/vehicles.json` y agrega un nuevo bloque JSON respetando las llaves y la sintaxis. Declara `id`, `title`, `shortDesc`, `price`, `details`, `promo` (opcional), `imageCount` y `ext` (si aplica). Asegúrate de que el `id` sea idéntico al usado en los nombres de las fotos.
 5. El sistema detectará automáticamente el cambio y ensamblará la nueva tarjeta, su galería y la ventana modal con todos los detalles.
 
 ---

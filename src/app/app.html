@@ -214,6 +214,12 @@
       <!-- Right: Details -->
       <div class="vehicle-modal-right">
         <h2>{{ selectedVehicle()!.title }}</h2>
+
+        <div class="vehicle-price-container" *ngIf="selectedVehicle()?.price">
+          <p class="vehicle-price">{{ selectedVehicle()!.price | currency:'MXN':'$':'1.0-0' }}</p>
+          <p class="vehicle-price-note">* Impuestos no incluidos</p>
+          <p class="vehicle-down-payment">Enganche desde: {{ (selectedVehicle()!.price * 0.25) | currency:'MXN':'$':'1.0-0' }} (25%)</p>
+        </div>
         <ul class="vehicle-details-list">
           <li *ngFor="let detail of selectedVehicle()!.details">✓ {{ detail }}</li>
         </ul>

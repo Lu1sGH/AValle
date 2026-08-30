@@ -639,7 +639,37 @@
   font-weight: 700;
   color: #1e293b;
   margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.vehicle-price-container {
+  background: #f8fafc;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  border-left: 4px solid #0056b3;
   margin-bottom: 1.5rem;
+}
+
+.vehicle-price {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.vehicle-price-note {
+  font-size: 0.75rem;
+  color: #64748b;
+  margin: 0 0 0.5rem 0;
+  font-style: italic;
+}
+
+.vehicle-down-payment {
+  font-size: 1rem;
+  color: #0369a1;
+  font-weight: 600;
+  margin: 0;
 }
 
 .vehicle-details-list {
