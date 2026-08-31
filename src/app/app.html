@@ -82,7 +82,7 @@
           </div>
           <div class="vehicle-card-info">
             <h3>{{ vehicle.title }}</h3>
-            <p>{{ vehicle.shortDesc }}</p>
+            <p>{{ vehicle.anio }}</p>
             <button class="btn-more">Ver detalles</button>
           </div>
         </div>
@@ -218,7 +218,10 @@
         <div class="vehicle-price-container" *ngIf="selectedVehicle()?.price">
           <p class="vehicle-price">{{ selectedVehicle()!.price | currency:'MXN':'$':'1.0-0' }}</p>
           <p class="vehicle-price-note">* Impuestos no incluidos</p>
-          <p class="vehicle-down-payment">Enganche desde: {{ (selectedVehicle()!.price * 0.25) | currency:'MXN':'$':'1.0-0' }} (25%)</p>
+          <div class="vehicle-down-payment" *ngIf="selectedVehicle()?.anio >= 2016">
+            <p>Contamos con planes de financiamiento.</p>
+            <p>Enganche desde: {{ (selectedVehicle()!.price * 0.25) | currency:'MXN':'$':'1.0-0' }} (25%)</p>
+          </div>
         </div>
         <ul class="vehicle-details-list">
           <li *ngFor="let detail of selectedVehicle()!.details">✓ {{ detail }}</li>

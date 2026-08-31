@@ -1,8 +1,7 @@
 [
   {
     "id": "audi_rs3_2020",
-    "title": "AUDI RS3 2020",
-    "shortDesc": "Factura original, motor 2.5T 400HP, excelente manejo.",
+    "title": "AUDI RS3",
     "price": 780000,
     "details": [
       "FACTURA ORIGINAL DE AUDI",
@@ -19,19 +18,17 @@
       "QUEMACOCOS ELECTRICO",
       "LLANTAS PIRELLI 85% DE VIDA",
       "FAROS DE NIEBLA",
-      "RIN DE ALUMINIO 19\"",
-      "EXECELENTE MANEJO (CUALQUIER PRUEBA)"
+      "RIN DE ALUMINIO 19\""
     ],
     "promo": [
-      "ACEPTAMOS AUTOS A CAMBIO",
-      "CONTAMOS CON PLANES DE FINANCIAMIENTO"
+      "TOMAMOS AUTOS EN CUENTA"
     ],
-    "imageCount": 24
+    "imageCount": 24,
+    "anio": 2020
   },
   {
     "id": "volkswagen_tiguan_rline",
-    "title": "FLAMANTE VOLKSWAGEN TIGUAN R-LINE 2.0 TURBO",
-    "shortDesc": "Documentos en regla, motor 2.0T, quemacocos panorámico.",
+    "title": "VOLKSWAGEN TIGUAN R-LINE",
     "price": 492000,
     "details": [
       "DOCUMENTOS EN REGLA",
@@ -45,16 +42,17 @@
       "MP3,BLUETOOTH,USB",
       "PANTALLA CON ANDROI AUTO, CARPLAY",
       "ASIENTOS EN PIEL MUY CUIDADOS",
-      "QUEMACOCOS ELECTRICO Y PANORAMICO",
-      "EXECELENTE MANEJO"
+      "QUEMACOCOS ELECTRICO Y PANORAMICO"
     ],
-    "promo": [],
-    "imageCount": 17
+    "promo": [
+      "TOMAMOS AUTOS EN CUENTA"
+    ],
+    "imageCount": 17,
+    "anio": 2022
   },
   {
     "id": "mercedes_benz_gle_43_amg",
     "title": "MERCEDES BENZ GLE 43 AMG",
-    "shortDesc": "Factura original, motor 3.0 Biturbo 390HP, asientos en piel.",
     "price": 700000,
     "details": [
       "FACTURA ORIGINAL",
@@ -67,19 +65,18 @@
       "PANTALLA CON CAMARA DE REVERSA",
       "ASIENTOS EN PIEL",
       "QUEMACOCOS ELECTRICO",
-      "RIN DE ALUMINIO",
-      "EXECELENTE MANEJO"
+      "RIN DE ALUMINIO"
     ],
     "promo": [
       "¡NO DEJES QUE TE LA GANEN!",
-      "CONTAMOS CON PLANES DE FINANCIAMIENTO DESDE UN 30% DE ENGANCHE Y HASTA 60 MESES PARA LIQUIDAR"
+      "TOMAMOS AUTOS EN CUENTA"
     ],
-    "imageCount": 15
+    "imageCount": 15,
+    "anio": 2020
   },
   {
     "id": "kia_forte_ex",
-    "title": "FLAMANTE KIA FORTE EX",
-    "shortDesc": "Documentos en regla, motor 2.0 4 CIL, servicios de agencia.",
+    "title": "KIA FORTE EX",
     "price": 315000,
     "details": [
       "DOCUMENTOS EN REGLA",
@@ -95,19 +92,18 @@
       "MP3,BLUETOOTH,USB",
       "PANTALLA CON ANDROI AUTO, CARPLAY",
       "RIN DE ALUMINIO 17\"",
-      "ASIENTOS EN TELA MUY CUIDADOS",
-      "EXECELENTE MANEJO"
+      "ASIENTOS EN TELA MUY CUIDADOS"
     ],
     "promo": [
       "¡NO DEJES QUE TE LO GANEN!",
-      "CONTAMOS CON PLANES DE FINANCIAMIENTO DESDE UN 30% DE ENGANCHE Y HASTA 60 MESES"
+      "TOMAMOS AUTOS EN CUENTA"
     ],
-    "imageCount": 17
+    "imageCount": 17,
+    "anio": 2023
   },
   {
     "id": "dodge_journey_sxt_2014",
-    "title": "DODGE JOURNEY SXT 7 PAS 2014",
-    "shortDesc": "Factura de agencia, motor 2.5 4 CIL, 7 pasajeros, asientos en piel.",
+    "title": "DODGE JOURNEY SXT 7 PAS",
     "price": 169000,
     "details": [
       "FACTURA DE AGENCIA",
@@ -123,12 +119,13 @@
       "PANTALLA TOUCH CON",
       "ASIENTOS EN PIEL",
       "DOS JUEGOS DE LLAVES",
-      "PANTALLA CON DVD",
-      "EXECELENTE MANEJO"
+      "PANTALLA CON DVD"
     ],
     "promo": [
-      "SOLO PAGO DE CONTADO"
+      "SOLO PAGO DE CONTADO",
+      "TOMAMOS AUTOS EN CUENTA"
     ],
-    "imageCount": 18
+    "imageCount": 18,
+    "anio": 2014
   }
 ]

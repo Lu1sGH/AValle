@@ -16,7 +16,7 @@ export class App implements OnInit, AfterViewInit {
   scrollPosition = signal(0);
   isLoaded = signal(false);
 
-  cars = ['car1.jpeg', 'car2.jpeg', 'car3.jpeg', 'car4.jpeg', 'car5.jpeg', 'car1.jpeg', 'car2.jpeg', 'car3.jpeg', 'car4.jpeg', 'car5.jpeg'];
+  cars = ['car1.jpeg', 'car2.jpeg', 'car3.jpeg', 'car2.jpeg', 'car1.jpeg', 'car2.jpeg', 'car3.jpeg', 'car2.jpeg', 'car1.jpeg', 'car2.jpeg', 'car3.jpeg', 'car2.jpeg', 'car1.jpeg', 'car2.jpeg', 'car3.jpeg', 'car2.jpeg', 'car1.jpeg', 'car2.jpeg', 'car3.jpeg', 'car2.jpeg'];
 
   // Parse details string into array if needed, otherwise use directly
   vehicles = vehiclesData.map((v: any) => ({
