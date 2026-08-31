@@ -4,6 +4,7 @@
     "title": "AUDI RS3",
     "price": 780000,
     "details": [
+      "100000 KM",
       "FACTURA ORIGINAL DE AUDI",
       "SERVICIOS DE AGENCIA",
       "DOS JUEGOS DE LLAVES",
@@ -21,7 +22,6 @@
       "RIN DE ALUMINIO 19\""
     ],
     "promo": [
-      "TOMAMOS AUTOS EN CUENTA"
     ],
     "imageCount": 24,
     "anio": 2020
@@ -31,6 +31,7 @@
     "title": "VOLKSWAGEN TIGUAN R-LINE",
     "price": 492000,
     "details": [
+      "62000 KM",
       "DOCUMENTOS EN REGLA",
       "TODO PAGADO HASTA EL 2026",
       "MOTOR 2.0 TURBO 4 CIL",
@@ -45,7 +46,6 @@
       "QUEMACOCOS ELECTRICO Y PANORAMICO"
     ],
     "promo": [
-      "TOMAMOS AUTOS EN CUENTA"
     ],
     "imageCount": 17,
     "anio": 2022
@@ -55,6 +55,7 @@
     "title": "MERCEDES BENZ GLE 43 AMG",
     "price": 700000,
     "details": [
+      "43000 KM",
       "FACTURA ORIGINAL",
       "TODO PAGADO HASTA EL 2026",
       "MOTOR 3.0 6CIL BITURBO 390HP",
@@ -68,8 +69,6 @@
       "RIN DE ALUMINIO"
     ],
     "promo": [
-      "¡NO DEJES QUE TE LA GANEN!",
-      "TOMAMOS AUTOS EN CUENTA"
     ],
     "imageCount": 15,
     "anio": 2020
@@ -79,6 +78,7 @@
     "title": "KIA FORTE EX",
     "price": 315000,
     "details": [
+      "48400 KM",
       "DOCUMENTOS EN REGLA",
       "SERVICIOS DE AGENCIA",
       "2 JUEGOS DE LLAVES",
@@ -95,8 +95,6 @@
       "ASIENTOS EN TELA MUY CUIDADOS"
     ],
     "promo": [
-      "¡NO DEJES QUE TE LO GANEN!",
-      "TOMAMOS AUTOS EN CUENTA"
     ],
     "imageCount": 17,
     "anio": 2023
@@ -106,6 +104,7 @@
     "title": "DODGE JOURNEY SXT 7 PAS",
     "price": 169000,
     "details": [
+      "92000 KM",
       "FACTURA DE AGENCIA",
       "TODO PAGADO HASTA EL 2026",
       "MOTOR 2.5 4 CIL",
@@ -122,8 +121,6 @@
       "PANTALLA CON DVD"
     ],
     "promo": [
-      "SOLO PAGO DE CONTADO",
-      "TOMAMOS AUTOS EN CUENTA"
     ],
     "imageCount": 18,
     "anio": 2014
