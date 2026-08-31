@@ -4,7 +4,7 @@
     "title": "AUDI RS3",
     "price": 780000,
     "details": [
-      "100000 KM",
+      "100,000 KM",
       "FACTURA ORIGINAL DE AUDI",
       "SERVICIOS DE AGENCIA",
       "DOS JUEGOS DE LLAVES",
@@ -31,7 +31,7 @@
     "title": "VOLKSWAGEN TIGUAN R-LINE",
     "price": 492000,
     "details": [
-      "62000 KM",
+      "62,000 KM",
       "DOCUMENTOS EN REGLA",
       "TODO PAGADO HASTA EL 2026",
       "MOTOR 2.0 TURBO 4 CIL",
@@ -55,7 +55,7 @@
     "title": "MERCEDES BENZ GLE 43 AMG",
     "price": 700000,
     "details": [
-      "43000 KM",
+      "43,000 KM",
       "FACTURA ORIGINAL",
       "TODO PAGADO HASTA EL 2026",
       "MOTOR 3.0 6CIL BITURBO 390HP",
@@ -78,7 +78,7 @@
     "title": "KIA FORTE EX",
     "price": 315000,
     "details": [
-      "48400 KM",
+      "48,400 KM",
       "DOCUMENTOS EN REGLA",
       "SERVICIOS DE AGENCIA",
       "2 JUEGOS DE LLAVES",
@@ -104,7 +104,7 @@
     "title": "DODGE JOURNEY SXT 7 PAS",
     "price": 169000,
     "details": [
-      "92000 KM",
+      "92,000 KM",
       "FACTURA DE AGENCIA",
       "TODO PAGADO HASTA EL 2026",
       "MOTOR 2.5 4 CIL",
